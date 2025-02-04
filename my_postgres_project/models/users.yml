@@ -1,0 +1,9 @@
+# models/users.yml
+version: 2
+
+models:
+  - name: stg_users
+    columns:
+      - name: email
+        tests:
+          - unique
